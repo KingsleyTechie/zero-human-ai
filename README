@@ -1,0 +1,63 @@
+Project Title: Zero Human AI: An Autonomous and Self Learning Predictive System
+
+1. Overview
+
+This repository contains the official code and data for the research project "Zero Human AI: An Autonomous Domain Adaptive Framework for Self Learning Predictive Systems Across Healthcare, Finance, and Manufacturing Domains."
+
+This project aims to create a smart system that can learn and adapt on its own across different fields like healthcare, finance, and manufacturing, without needing constant help from human experts. The system is designed to automatically adjust to new data and new environments, making predictions and improving its performance over time.
+
+2. Key Objectives
+
+The main goals of this project are:
+
+To develop a unified framework that can work in multiple industries without requiring manual reconfiguration for each one.
+
+To enable the system to learn from new data without being explicitly retrained by a human (self learning).
+
+To allow the system to adapt when moving from one environment to another, for example, from one hospital's data to another's (domain adaptation).
+
+To automate the entire machine learning process, from data preparation to model selection and deployment, minimizing human effort.
+
+3. System Architecture
+
+The system is built with several key components that work together:
+
+Data Ingestion Module: Automatically collects and processes data from various sources in real time.
+
+Automatic Feature Engineering: Identifies the most important patterns and information from the raw data.
+
+Self Learning Core: Uses advanced algorithms to continuously learn from new data, updating its knowledge without forgetting what it learned before.
+
+Cross Domain Adapter: This is the intelligent part that allows the model trained in one setting, such as a specific factory, to work effectively in a different setting, like another factory with different machinery.
+
+Model Orchestrator: Automatically selects the best performing algorithm and tunes its settings for optimal results.
+
+4. Repository Structure
+
+text
+project_root/
+|   data/
+|   |   raw/           # Original, unprocessed data from various domains
+|   |   processed/     # Cleaned and transformed data ready for modeling
+|   src/
+|   |   data_ingestion/    # Scripts for collecting and loading data
+|   |   preprocessing/     # Code for cleaning and feature engineering
+|   |   model_core/        # Core self learning algorithms
+|   |   domain_adaptation/ # Code for cross domain adaptation
+|   |   evaluation/        # Scripts for testing and validating model performance
+|   notebooks/
+|   |   exploration/       # Jupyter notebooks for initial data analysis
+|   |   experiments/       # Notebooks documenting key experiments
+|   models/
+|   |   saved_models/      # Pre trained models for demonstration
+|   config/
+|   |   parameters.yaml    # Central configuration file for all settings
+|   docs/                  # Additional documentation
+|   requirements.txt       # List of all Python libraries needed to run the code
+|   main.py                # Main script to launch the system
+
+The web application allows users to:
+
+1. Interact with the pre trained models for each domain (healthcare, finance, manufacturing).
+2. Upload their own sample data files to see real time predictions.
+3. View visualizations of the model's predictions and adaptive learning process.
