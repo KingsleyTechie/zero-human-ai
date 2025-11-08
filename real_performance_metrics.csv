@@ -1,0 +1,22 @@
+Dataset,Domain,Problem Type,Best Model,Accuracy,F1-Score,Samples,Features,Test Size,MSE,R² Score
+real_iris,Benchmarks,Classification,knn,1.0,1.0,150,4,30,,
+real_wine,Benchmarks,Classification,random_forest,1.0,1.0,178,13,36,,
+real_diabetes,Benchmarks,Regression,linear_regression,,,442,10,89,2900.19362849348,0.4526027629719197
+real_cancer,Healthcare,Classification,random_forest,0.956140350877193,0.9560273762928301,569,30,114,,
+healthcare_disease,Healthcare,Classification,svm,0.99,0.9899997499937498,2000,12,400,,
+finance_credit,Finance,Classification,knn,0.9333333333333333,0.9292200854700855,1800,10,360,,
+ecommerce_churn,E-commerce,Classification,svm,0.93,0.9299805501528201,1500,8,300,,
+manufacturing_failure,Manufacturing,Classification,knn,0.9666666666666667,0.9639497054427151,1200,9,240,,
+agriculture_yield,Agriculture,Regression,linear_regression,,,1000,7,200,238.72047520897218,0.9538786199296486
+energy_consumption,Energy,Regression,linear_regression,,,800,6,160,418.787627395259,0.9669309320326696
+transportation_delivery,Transportation,Regression,linear_regression,,,1100,8,220,619.356097974779,0.9629515859089869
+education_performance,Education,Regression,linear_regression,,,900,9,180,4.571058239678248,0.9783197432130772
+realestate_prices,Real Estate,Regression,svm,,,1300,10,260,8919406308.244738,-0.004130057913093177
+marketing_conversion,E-commerce,Classification,knn,0.9470588235294117,0.9446230496381195,1700,11,340,,
+cybersecurity_intrusion,Cybersecurity,Classification,knn,0.9775,0.9745638260045039,2000,13,400,,
+insurance_claims,Finance,Classification,svm,0.959375,0.9558382985766303,1600,9,320,,
+retail_sales,E-commerce,Regression,svm,,,1400,8,280,2378876.8302074345,-0.000523003131686961
+hr_attrition,HR,Classification,svm,0.9181818181818182,0.9016136363636363,1100,12,220,,
+climate_temperature,Climate,Regression,linear_regression,,,950,10,190,0.013964360123342097,0.9996719200498324
+california_housing,Real Estate,Regression,xgboost,,,20640,8,4128,0.2225899267544737,0.8301370561019205
+news_popularity,Benchmarks,Regression,linear_regression,,,39644,60,7929,6.095852172741162e-22,1.0
